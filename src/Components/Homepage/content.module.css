@@ -1,0 +1,45 @@
+
+.img {
+  padding: 20px;
+}
+
+.row {
+  text-align: center;
+  float: none;
+  width: 80%;
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #8a271a;
+  color: rgb(250, 243, 243);
+  padding: 0.55rem 2rem;
+  display: flex;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+.content{
+  display: flex;
+  flex-direction: row;
+}
+.buttonCard{
+  display: flex;
+  flex-direction: row;
+}
